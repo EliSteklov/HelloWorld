@@ -1,0 +1,7 @@
+docker swarm join --token SWMTKN-1-0jksf2g2cf04dmup1inzh5zajoh2sh9e51rxjcl8tf0ml61k2o-9n4bcwzyvzvb4g5r5d45kccb1 192.168.1.119:2377
+
+Master
+docker swarm join --token SWMTKN-1-0jksf2g2cf04dmup1inzh5zajoh2sh9e51rxjcl8tf0ml61k2o-c2qwzmxx761j7tklk32idoalq 192.168.1.119:2377
+
+Worker
+docker swarm join --token SWMTKN-1-0jksf2g2cf04dmup1inzh5zajoh2sh9e51rxjcl8tf0ml61k2o-9n4bcwzyvzvb4g5r5d45kccb1 192.168.1.119:2377
